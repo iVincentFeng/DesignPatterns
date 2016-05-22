@@ -1,4 +1,4 @@
-﻿namespace TemplateMethod
+﻿namespace DesignPatterns.TemplateMethod
 {
     public abstract class BeverageMaker
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{EDDB9D9E-6073-4772-9C98-92D7FFBFC19F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TemplateMethod</RootNamespace>
-    <AssemblyName>TemplateMethod</AssemblyName>
+    <RootNamespace>DesignPatterns.TemplateMethod</RootNamespace>
+    <AssemblyName>DesignPatterns.TemplateMethod</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
