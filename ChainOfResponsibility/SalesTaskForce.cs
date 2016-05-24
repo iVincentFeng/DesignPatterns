@@ -1,8 +1,18 @@
 ﻿namespace DesignPatterns.ChainOfResponsibility
 {
-    public class SalesSimulation
+    public class SalesTaskForce
     {
-        public void BuildSalesChain()
+        public SalesTaskForce()
+        {
+            this.BuildSalesChain();
+        }
+
+        public DiscountResponse ProcessCustomerDiscountRequest(DiscountRequest request)
+        {
+            return this.salesChain.HandleDiscountRequest(request);
+        }
+
+        private void BuildSalesChain()
         {
             President president = new President(null);
             VicePresident vicePresident = new VicePresident(president);
@@ -11,11 +21,6 @@
             Sales sales = new Sales(manager);
 
             this.salesChain = sales;
-        }
-
-        public DiscountResponse ProcessCustomerDiscountRequest(DiscountRequest request)
-        {
-            return this.salesChain.HandleDiscountRequest(request);
         }
 
         private DiscountRequestHandler salesChain = null;
