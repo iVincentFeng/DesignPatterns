@@ -1,7 +1,6 @@
 ﻿namespace DesignPatterns.Strategy
 {
-    public interface IQuack
+    public class Context
     {
-        void Quack();
     }
 }

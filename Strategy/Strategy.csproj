@@ -40,9 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Duck.cs" />
-    <Compile Include="IFly.cs" />
-    <Compile Include="IQuack.cs" />
+    <Compile Include="UsTaxCalculator.cs" />
+    <Compile Include="CnTaxCalculator.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="SalesOrder.cs" />
+    <Compile Include="ICalculateTax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
