@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Core\Interfaces\IMessengerInfrastructure.cs" />
+    <Compile Include="Core\Interfaces\IMessenger.cs" />
+    <Compile Include="Core\Services\ProMessenger.cs" />
+    <Compile Include="Core\Services\LiteMessenger.cs" />
+    <Compile Include="Infrastructure\MobileMessengerInfrastructure.cs" />
+    <Compile Include="Infrastructure\PcMessengerInfrastructure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
