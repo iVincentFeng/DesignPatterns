@@ -40,16 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbCommand.cs" />
-    <Compile Include="DbConnection.cs" />
-    <Compile Include="DbFactory.cs" />
-    <Compile Include="Oracle\OracleCommand.cs" />
-    <Compile Include="Oracle\OracleConnection.cs" />
-    <Compile Include="Oracle\OracleFactory.cs" />
+    <Compile Include="AbstractFactory\Interfaces\DbCommand.cs" />
+    <Compile Include="AbstractFactory\Interfaces\DbConnection.cs" />
+    <Compile Include="AbstractFactory\Interfaces\DbFactory.cs" />
+    <Compile Include="AbstractFactory\Oracle\OracleCommand.cs" />
+    <Compile Include="AbstractFactory\Oracle\OracleConnection.cs" />
+    <Compile Include="AbstractFactory\Oracle\OracleFactory.cs" />
+    <Compile Include="FactoryMethod\ConcreteClassFactory.cs" />
+    <Compile Include="FactoryMethod\ConcreteClass.cs" />
+    <Compile Include="FactoryMethod\IInterface.cs" />
+    <Compile Include="FactoryMethod\IFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlServer\SqlServerCommand.cs" />
-    <Compile Include="SqlServer\SqlServerConnection.cs" />
-    <Compile Include="SqlServer\SqlServerFactory.cs" />
+    <Compile Include="AbstractFactory\SqlServer\SqlServerCommand.cs" />
+    <Compile Include="AbstractFactory\SqlServer\SqlServerConnection.cs" />
+    <Compile Include="AbstractFactory\SqlServer\SqlServerFactory.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

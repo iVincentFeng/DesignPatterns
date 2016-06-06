@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Factory.SqlServer
+﻿using DesignPatterns.Factory.AbstractFactory.Interfaces;
+
+namespace DesignPatterns.Factory.SqlServer.AbstractFactory
 {
     public class SqlServerFactory : DbFactory
     {

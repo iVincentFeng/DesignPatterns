@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Factory.Oracle
+﻿using DesignPatterns.Factory.AbstractFactory.Interfaces;
+
+namespace DesignPatterns.Factory.Oracle.AbstractFactory
 {
     public class OracleFactory : DbFactory
     {

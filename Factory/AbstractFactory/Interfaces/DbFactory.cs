@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Factory
+﻿namespace DesignPatterns.Factory.AbstractFactory.Interfaces
 {
     public abstract class DbFactory
     {
