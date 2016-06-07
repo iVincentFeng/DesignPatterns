@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace DesignPatterns.Prototype
 {
     public class SomeClonable : IMyClonable
     {
