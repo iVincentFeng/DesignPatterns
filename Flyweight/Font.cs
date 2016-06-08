@@ -2,6 +2,11 @@
 {
     public class Font
     {
+        // Avoid explicit object creation in client code.
+        internal Font()
+        {
+        }
+
         public string Name
         {
             get;
