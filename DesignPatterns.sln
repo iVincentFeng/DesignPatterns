@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{86C3E923-D0C8-4B98-B00E-3CAD893D5105}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{86C3E923-D0C8-4B98-B00E-3CAD893D5105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C3E923-D0C8-4B98-B00E-3CAD893D5105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C3E923-D0C8-4B98-B00E-3CAD893D5105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
