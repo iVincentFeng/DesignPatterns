@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{0EF0A996-5044-4190-AD09-C67DDD6A6A89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953E7D99-7A97-4C41-B1E3-B7E6C87E51EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF0A996-5044-4190-AD09-C67DDD6A6A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF0A996-5044-4190-AD09-C67DDD6A6A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF0A996-5044-4190-AD09-C67DDD6A6A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF0A996-5044-4190-AD09-C67DDD6A6A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
