@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Memento
+namespace DesignPatterns.Memento.Classic
 {
     // For internal use only
     internal class InternalState : ICloneable

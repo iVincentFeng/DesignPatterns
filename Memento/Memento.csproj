@@ -40,10 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Memento.cs" />
-    <Compile Include="Originator.cs" />
+    <Compile Include="Classic\Memento.cs" />
+    <Compile Include="Classic\Originator.cs" />
+    <Compile Include="Modern\Memento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InternalState.cs" />
+    <Compile Include="Classic\InternalState.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

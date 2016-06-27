@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Memento
+﻿namespace DesignPatterns.Memento.Classic
 {
     // Client code only knows about this class, but not its inner details.
     public class Memento

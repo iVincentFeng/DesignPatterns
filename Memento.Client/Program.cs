@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Memento.Client
+﻿using DesignPatterns.Memento.Classic;
+
+namespace DesignPatterns.Memento.Client
 {
     public class Program
     {
@@ -7,7 +9,7 @@
             Originator orig = new Originator();
 
             // Save the state
-            Memento savedState = orig.GetState();
+            Memento.Classic.Memento savedState = orig.GetState();
 
             orig.SomeOperationThatChangesState();
 
