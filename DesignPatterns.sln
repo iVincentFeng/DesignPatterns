@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{EDDB9D9E-6073-4772-9C98-92D7FFBFC19F}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{0167A021-8EA6-4E46-88EC-7A1ED84E7A9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Client", "Memento.Client\Memento.Client.csproj", "{C4664464-D7D7-48B9-AB78-97DFD5F43807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{73ACE125-384B-4AA6-8D4A-8C28A5AC8D67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{C4664464-D7D7-48B9-AB78-97DFD5F43807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4664464-D7D7-48B9-AB78-97DFD5F43807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4664464-D7D7-48B9-AB78-97DFD5F43807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ACE125-384B-4AA6-8D4A-8C28A5AC8D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ACE125-384B-4AA6-8D4A-8C28A5AC8D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ACE125-384B-4AA6-8D4A-8C28A5AC8D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ACE125-384B-4AA6-8D4A-8C28A5AC8D67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
